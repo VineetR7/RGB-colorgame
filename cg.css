@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+#containr {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.sqre {
+    background: black;
+    width: 30%;
+    float: left;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    border-radius: 20%;
+    transition: background 1s;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    background-color: slateblue;
+    margin: 0;
+    font-size: 40px;
+    line-height: 1.1;
+    padding: 20px 0;
+    transition: background 1s;
+}
+#spn {
+    font-size: 2em;
+}
+
+#stripe {
+    background-color:white;
+    text-align: center;
+    margin: 0;
+}
+
+#mess {
+    display: inline-block;
+    width: 20%;
+}
+
+button {
+    border: none;
+    background: none;
+    height: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: slateblue;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background: slateblue;
+    color: white;
+}
+
+.clicked {
+    background-color: slateblue;
+    color: white;
+}
